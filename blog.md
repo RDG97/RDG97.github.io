@@ -1,4 +1,6 @@
 # Welcome to my blog!
+![code monkey](img/limbani-monkey.gif)
+### Questions
 Was your first week what you expected? Why? Why not?
 > My first week was about what I expected. I'm already learning new things, like how to use GitHub!
 
