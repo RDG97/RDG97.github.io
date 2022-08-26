@@ -9,3 +9,11 @@ What are you exctied or eager to learn more about?
 
 What is something about you that can only be learned by reading this blog?
 >My friends all think I hate Pizza Hut because I've bashed it for years. I tried it recently and really liked it, but im in too deep.
+
+Heres a cool code snippet
+```
+for (var letter of 'coolest code out there') {
+  print(letter);
+}
+```
+How cool!
