@@ -1,0 +1,17 @@
+#test {
+    height: 500px;
+    width: 500px;
+}
+#nav {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+}
+body {
+    background-image: url("/img/luvofthegame.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#drop {
+    color: red;
+}
