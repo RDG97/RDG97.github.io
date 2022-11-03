@@ -2,6 +2,7 @@ export default function Navbar() {
 
     return (       
             <ul className="nav flex-column bg-dark navver">
+                <h2 className="text-light">Ryan Gann</h2>
                 <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">Active</a>
                 </li>
