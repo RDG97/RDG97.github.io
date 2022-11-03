@@ -3,7 +3,7 @@ export default function Navbar() {
 
     return (
         <>
-        <Fade delay={1e3} cascade damping={0.1}>      
+        <Slide cascade>      
             <ul className="nav flex-column bg-dark navver">
                 <h2 className="text-light">Ryan Gann</h2>
                 <li className="nav-item">
@@ -19,7 +19,7 @@ export default function Navbar() {
                     <a className="nav-link disabled">Disabled</a>
                 </li>
             </ul>
-            </Fade>
+            </Slide>
             </>
     );
 }
