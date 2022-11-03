@@ -39,6 +39,10 @@
 
 .navver {
   height: 100%;
-  width: 7%;
+  width: 8%;
   position: absolute;
+}
+
+body {
+  background-image: url("/workspace/RDG97.github.io/img/luvofthegame.jpg");
 }
