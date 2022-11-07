@@ -48,3 +48,10 @@ body {
   background-image: url("/workspace/RDG97.github.io/img/luvofthegame.jpg");
   background-size: cover;
 }
+
+.proj {
+  height: 150px;
+  width: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
