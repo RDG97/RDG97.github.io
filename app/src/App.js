@@ -54,9 +54,9 @@ function test() {}
   }
   return (
     <div className="App">
+      <Navbar />
       {page == 'showcase' && <Showcase setPage={setPage}/>}
       {page == 'aboutme' && <AboutMe setPage={setPage}/>}
-      {page == 'home' && <Navbar />}
     </div>
     
   );
