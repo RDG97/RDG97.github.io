@@ -45,7 +45,7 @@
 }
 
 body {
-  background-image: url("/workspace/RDG97.github.io/img/luvofthegame.jpg");
+  background-image: url("/workspace/RDG97.github.io/app/src/imgsrc/acadia.JPG");
   background-size: cover;
 }
 
@@ -54,4 +54,9 @@ body {
   width: 300px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.headShot {
+  height: 250px;
+  width: 250px;
 }

@@ -35,8 +35,6 @@ export default function Showcase(props) {
             <a href="https://rdg97.github.io/mindReader/">
                         <div className="span proj text-light mx-3"><img src={mindread} className="proj"></img><h3>Mind Reader</h3></div>
                         </a>
-                        <div className="span proj bg-warning text-danger mx-3">project go here </div>
-                        <div className="span proj bg-warning text-danger mx-3">project go here </div>
             </div>
             <br></br>
             <br></br>
