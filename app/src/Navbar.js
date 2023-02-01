@@ -24,7 +24,7 @@ function test() {}
     return (
         <>
         <Slide cascade>      
-        <ul className="nav flex-column bg-dark navver">
+        <ul className="nav flex-column bg-dark navver d-none d-md-block">
               <h2 className="text-light">Ryan Gann</h2>
               <li className="nav-item">
                 <br></br>
@@ -50,6 +50,7 @@ function test() {}
   </li>
           </ul>
             </Slide>
+
             </>
     );
 }
