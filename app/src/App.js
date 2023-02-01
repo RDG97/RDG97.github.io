@@ -7,6 +7,7 @@ import AboutMe from './AboutMe';
 import Showcase from './Showcase';
 import Links from './Links';
 import Navbar from './Navbar';
+import Mnav from './Mnav';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <div className="App">
       <Navbar page={page} setPage={setPage}/>
+      <Mnav page={page} setPage={setPage}/>
       {page == 'links' && <Links page={page} setPage={setPage}/>}
       {page == 'showcase' && <Showcase page={page} setPage={setPage}/>}
       {page == 'aboutme' && <AboutMe page={page} setPage={setPage}/>}
