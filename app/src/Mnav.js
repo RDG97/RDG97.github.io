@@ -1,4 +1,23 @@
 export default function mNav(props) {
+
+  function pageAbout(){
+    setTimeout(
+      props.setPage('aboutme'), 750)
+  }
+  function pageShowcase(){
+    setTimeout(
+      props.setPage('showcase'), 750)
+  }
+  function pageContact(){
+    props.setPage('contactme')
+  }
+  function pageLinks(){
+    props.setPage('links')
+  }
+
+
+
+
     return (
         <nav class="navbar navbar-dark bg-dark fixed-top d-md-none">
         <div class="container-fluid">
@@ -8,7 +27,7 @@ export default function mNav(props) {
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Ryan Gann</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -17,11 +36,12 @@ export default function mNav(props) {
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <button type="button" class="btn btn-link" data-bs-dismiss="offcanvas" aria-label="Close" onClick={pageAbout}>About Me</button>
+                <button type="button" class="btn btn-link" data-bs-dismiss="offcanvas" aria-label="Close" onClick={pageShowcase}>Showcase</button>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Links
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="#">Action</a></li>
