@@ -9,6 +9,7 @@ import Links from './Links';
 import Navbar from './Navbar';
 import Mnav from './Mnav';
 import MAboutMe from './MAboutME';
+import MShowcase from './MShowcase'
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       {page == 'links' && <Links page={page} setPage={setPage}/>}
       {page == 'showcase' && <Showcase page={page} setPage={setPage}/>}
       {page == 'aboutme' && <AboutMe page={page} setPage={setPage}/>}
+      {page == 'mshowcase' && <MShowcase page={page} setPage={setPage}/>}
       {page == 'maboutme' && <MAboutMe page={page} setPage={setPage}/>}
     </div>
     

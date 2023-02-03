@@ -6,7 +6,7 @@ export default function mNav(props) {
   }
   function pageShowcase(){
     setTimeout(
-      props.setPage('showcase'), 750)
+      props.setPage('mshowcase'), 750)
   }
   function pageContact(){
     props.setPage('contactme')
