@@ -2,7 +2,7 @@ export default function mNav(props) {
 
   function pageAbout(){
     setTimeout(
-      props.setPage('aboutme'), 750)
+      props.setPage('maboutme'), 750)
   }
   function pageShowcase(){
     setTimeout(

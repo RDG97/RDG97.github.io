@@ -1,15 +1,14 @@
-
 import { Slide } from "react-awesome-reveal";
 import { useState } from "react";
 import App from "./App";
 import ryan from "/workspace/RDG97.github.io/app/src/imgsrc/ryan.jpg"
-export default function AboutMe(props) {
+
+export default function MAboutMe(props) {
     function back() {
         props.setPage('home')
     }
     return(
         <>
-        <Slide direction="right" className="d-md-block">
             <center>
         <div className="container bg-dark text-light d-md-block">
         <button type="button" className="btn bg-light" onClick={back}>Back</button>
@@ -28,7 +27,6 @@ export default function AboutMe(props) {
 
         </div>
         </center>
-        </Slide>
         </>
     )
 }
