@@ -30,6 +30,17 @@ export default function Showcase(props) {
             <br></br>
           <br></br>
           <div className="d-flex flex-row justify-content-center">
+            <a href="https://rdg97.github.io/todo-2/">
+              <div className="span proj text-light mx-3">
+                <img src={todo} className="proj"></img>
+                <h3>Todo List</h3>
+              </div>
+            </a>
+            </div>
+            <br></br>
+            <br></br>
+
+          <div className="d-flex flex-row justify-content-center">
             <a href="https://rdg97.github.io/tic-tac-toe/">
               <div className="span proj text-light mx-3">
                 <img src={tic} className="proj"></img>
@@ -38,17 +49,7 @@ export default function Showcase(props) {
             </a>
             </div>
             <br></br>
-          <br></br>
-          <div className="d-flex flex-row justify-content-center">
-            <a href="https://rdg97.github.io/todo-2/">
-              <div className="span proj text-light mx-3">
-                <img src={todo} className="proj"></img>
-                <h3>Todo List</h3>
-              </div>
-            </a>
-            </div>
-
-          <br></br>
+          
           <br></br>
           <div className="d-flex flex-row justify-content-center">
             <a href="https://rdg97.github.io/mindReader/">
