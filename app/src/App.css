@@ -41,11 +41,12 @@
   height: 100%;
   width: 8%;
   position: absolute;
-  position:fixed;
+  position: fixed;
 }
 
 body {
-  background: url("/workspace/RDG97.github.io/app/src/imgsrc/acadia.JPG") no-repeat center fixed;
+  background: url("/workspace/RDG97.github.io/app/src/imgsrc/acadia.JPG")
+    no-repeat center fixed;
   background-size: cover;
 }
 
@@ -70,5 +71,5 @@ body {
   width: 25px;
 }
 .pointer {
-  cursor:pointer;
+  cursor: pointer;
 }
