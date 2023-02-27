@@ -20,7 +20,7 @@ export default function Showcase(props) {
           <br></br>
           <br></br>
           <div className="d-flex flex-row justify-content-center">
-          <a href="https://project-redline123.web.app/">
+            <a href="https://project-redline123.web.app/">
               <div className="span proj text-light mx-3">
                 <img src={redline} className="proj"></img>
                 <h3>Project Redline</h3>

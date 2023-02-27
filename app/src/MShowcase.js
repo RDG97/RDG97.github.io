@@ -12,57 +12,55 @@ export default function Showcase(props) {
   }
   return (
     <>
-
-        <div className="container bg-dark text-light">
-          <button type="button" className="btn bg-light" onClick={back}>
-            Back
-          </button>
-          <br></br>
-          <br></br>
-          <div className="d-flex flex-row justify-content-center">
+      <div className="container bg-dark text-light">
+        <button type="button" className="btn bg-light" onClick={back}>
+          Back
+        </button>
+        <br></br>
+        <br></br>
+        <div className="d-flex flex-row justify-content-center">
           <a href="https://project-redline123.web.app/">
-              <div className="span proj text-light mx-3">
-                <img src={redline} className="proj"></img>
-                <h3>Project Redline</h3>
-              </div>
-            </a>
+            <div className="span proj text-light mx-3">
+              <img src={redline} className="proj"></img>
+              <h3>Project Redline</h3>
             </div>
-            <br></br>
-          <br></br>
-          <div className="d-flex flex-row justify-content-center">
-            <a href="https://rdg97.github.io/todo-2/">
-              <div className="span proj text-light mx-3">
-                <img src={todo} className="proj"></img>
-                <h3>Todo List</h3>
-              </div>
-            </a>
-            </div>
-            <br></br>
-            <br></br>
-
-          <div className="d-flex flex-row justify-content-center">
-            <a href="https://rdg97.github.io/tic-tac-toe/">
-              <div className="span proj text-light mx-3">
-                <img src={tic} className="proj"></img>
-                <h3>Tic-Tac-Toe</h3>{" "}
-              </div>
-            </a>
-            </div>
-            <br></br>
-          
-          <br></br>
-          <div className="d-flex flex-row justify-content-center">
-            <a href="https://rdg97.github.io/mindReader/">
-              <div className="span proj text-light mx-3">
-                <img src={mindread} className="proj"></img>
-                <h3>Mind Reader</h3>
-              </div>
-            </a>
-          </div>
-          <br></br>
-          <br></br>
+          </a>
         </div>
+        <br></br>
+        <br></br>
+        <div className="d-flex flex-row justify-content-center">
+          <a href="https://rdg97.github.io/todo-2/">
+            <div className="span proj text-light mx-3">
+              <img src={todo} className="proj"></img>
+              <h3>Todo List</h3>
+            </div>
+          </a>
+        </div>
+        <br></br>
+        <br></br>
 
+        <div className="d-flex flex-row justify-content-center">
+          <a href="https://rdg97.github.io/tic-tac-toe/">
+            <div className="span proj text-light mx-3">
+              <img src={tic} className="proj"></img>
+              <h3>Tic-Tac-Toe</h3>
+            </div>
+          </a>
+        </div>
+        <br></br>
+
+        <br></br>
+        <div className="d-flex flex-row justify-content-center">
+          <a href="https://rdg97.github.io/mindReader/">
+            <div className="span proj text-light mx-3">
+              <img src={mindread} className="proj"></img>
+              <h3>Mind Reader</h3>
+            </div>
+          </a>
+        </div>
+        <br></br>
+        <br></br>
+      </div>
     </>
   );
 }
