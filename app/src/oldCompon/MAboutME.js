@@ -1,6 +1,6 @@
 import { Slide } from "react-awesome-reveal";
 import { useState } from "react";
-import App from "./App";
+import App from "../App";
 import ryan from "/workspace/RDG97.github.io/app/src/imgsrc/ryan.jpg";
 
 export default function MAboutMe(props) {
