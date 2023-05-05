@@ -19,7 +19,7 @@ export default function Nav(props) {
     </div>
         
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-top border-bottom border-white flex-fill">
-  <div class="container-fluid">
+  
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
@@ -49,12 +49,12 @@ export default function Nav(props) {
                 <h6>SUPPORT</h6>
             </div>
         </div>
-        <div class="d-flex flex-fill flex-row-reverse">
-      <div class="d-flex bg-warning px-6">
-        <div class="d-flex flex-fill"><h6>SHOP ONLINE</h6></div>
+        <div class="d-flex flex-fill flex-row-reverse full-height">
+      <div class="d-flex bg-warning">
+      <button type="button" class="btn btn-warning"><p class="h6">SHOP ONLINE</p></button>
       </div>
       </div>
-    </div>
+    
 
 </nav>
 </>

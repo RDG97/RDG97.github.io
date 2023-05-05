@@ -70,6 +70,11 @@
   width: 250px;
 }
 
+.tumbnailer {
+  height: auto;
+  max-width: auto;
+}
+
 .icon {
   height: 150px;
   width: 150px;
@@ -81,3 +86,6 @@
 .pointer {
   cursor: pointer;
 }
+
+.full-height { display: flex; flex-direction: column; height: 100%; }
+.fill-height { flex-grow: 1; width: 100%; }
