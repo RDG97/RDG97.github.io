@@ -1,6 +1,6 @@
-import email from "/workspace/RDG97.github.io/app/src/imgsrc/email (1).png";
-import linked from "/workspace/RDG97.github.io/app/src/imgsrc/linkedin (1).png";
-import github from "/workspace/RDG97.github.io/app/src/imgsrc/github-sign.png";
+import email from "./imgsrc/email (1).png";
+import linked from "./imgsrc/linkedin (1).png";
+import github from "./imgsrc/github-sign.png";
 
 export default function mNav(props) {
   function pageAbout() {
