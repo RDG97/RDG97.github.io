@@ -1,10 +1,10 @@
 import { Slide } from "react-awesome-reveal";
 import { useState } from "react";
 import App from "./App";
-import tic from "/workspace/RDG97.github.io/app/src/imgsrc/tic.PNG";
-import todo from "/workspace/RDG97.github.io/app/src/imgsrc/todo.JPG";
-import redline from "/workspace/RDG97.github.io/app/src/imgsrc/redline.JPG";
-import mindread from "/workspace/RDG97.github.io/app/src/imgsrc/mindread.JPG";
+import tic from "./imgsrc/tic.PNG";
+import todo from "./imgsrc/todo.JPG";
+import redline from "./imgsrc/redline.JPG";
+import mindread from "./imgsrc/mindread.JPG";
 
 export default function Showcase(props) {
   function back() {

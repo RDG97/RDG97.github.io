@@ -45,7 +45,7 @@
 }
 
 body {
-  background: url("/workspace/RDG97.github.io/app/src/imgsrc/acadia.JPG")
+  background: url("./imgsrc/acadia.JPG")
     no-repeat center fixed;
   background-size: cover;
 }
